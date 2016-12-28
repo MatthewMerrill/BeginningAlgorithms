@@ -10,6 +10,13 @@
 
 Throw away the constants
   - O(N) == O(2N+1)
+  - O(N+1) < O(N+2)
+
+Look at largest order
+  - O(N^2 + N + 1)
+    - Becomes O(N^2)
+  - O(N^3 + N^2 + N + 1)
+    - Becomes O(N^3)
 
 ##### Common Orders of complexity:
 
@@ -35,3 +42,5 @@ Throw away the constants
     - Basic sorting methods
         - Insertion sort
         - Selection sort
+ - O(N^N)
+ - O(N!)
